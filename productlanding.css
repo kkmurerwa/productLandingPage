@@ -1,0 +1,110 @@
+.links {
+  position: fixed;
+  font-size: 20px;
+  min-height: 100px;
+  width: 98%;
+  font-family: monospace;
+  background: black;
+  display: grid;
+  align-items: right;
+  color: white;
+  align-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1.5fr));/*Ensures reshaping of grids*/
+  border-radius: 5px;
+ 
+}
+html {
+  background-color: lightgrey;
+}
+
+.item {
+  padding-left: 10px;
+}
+
+#header-img {
+  width: 20px;
+  height: auto;
+}
+
+.cont {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  color: white;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.cont {
+  margin-top: -26px;
+}
+
+#video {
+  width: 80%;
+  height: auto;
+}
+
+#image {
+  width: 70%;
+  padding: 20px;
+  height: auto;
+}
+
+#desc {
+  padding-left: 30px;
+  padding-top: 50px;
+  line-height: 30px;
+  padding-right: 30px;
+}
+
+#shop {
+  width: 20%;
+  padding: 20px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+input {
+  height: 30px;
+  width: 45%;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+#stores {
+  display: flex;
+  flex-direction: column;
+}
+
+#submit {
+  padding: 5px;
+  width: 100px;
+  height: 50px;
+}
+
+#top {
+  padding-top: 100px;
+}
+
+@media (max-width: 400px){
+  input {
+    width: 70%;
+  }
+  #image {
+    width: 100%;
+    padding: 10px;
+    height: auto;
+  }
+}
