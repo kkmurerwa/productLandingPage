@@ -104,7 +104,7 @@ input {
   padding-top: 100px;
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
   input {
     width: 70%;
   }
