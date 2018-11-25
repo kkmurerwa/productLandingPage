@@ -113,4 +113,7 @@ input {
     padding: 10px;
     height: auto;
   }
+  #dedication{
+    font-size: 10px;
+  }
 }
