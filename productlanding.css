@@ -113,7 +113,16 @@ input {
     padding: 10px;
     height: auto;
   }
+  h1{
+    font-size: 15px;
+  }
+  p{
+    font-size: 10px;
+  }
   #dedication{
     font-size: 10px;
+  }
+  #top {
+    padding-top: 150px;
   }
 }
