@@ -26,6 +26,12 @@ html {
   height: auto;
 }
 
+#dedication {
+  font-size: 15px;
+  font-style: italic;
+  padding-bottom: 50px;
+}
+
 .cont {
   background-color: black;
   width: 100%;
